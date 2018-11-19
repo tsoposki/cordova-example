@@ -1,4 +1,3 @@
 <agm-map *ngIf="location$ | async as location" [latitude]="location.lat" [longitude]="location.lng">
-
-
+  <agm-marker *ngFor="let marker of markers$ | async" [latitude]="marker.lat" [longitude]="marker.lng"></agm-marker>
 </agm-map>
