@@ -1,0 +1,11 @@
+:host {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+agm-map {
+  height: 100%;
+}
