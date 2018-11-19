@@ -1,0 +1,22 @@
+:host {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  background: #CFE2F3;
+  height: 80px;
+}
+
+a {
+  padding: 5px 10px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black;
+  background: #9FC5E8;
+
+  &.active {
+    background: #6FA8DC;
+
+  }
+}
